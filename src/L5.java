@@ -44,6 +44,8 @@ public class L5 {
 
 }
 
+
+//brute forece approach
 //int start, max;
 //    public String longestPalindrome(String s) {
 //        if (s.length() <= 1) { return s; }
