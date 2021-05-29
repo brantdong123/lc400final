@@ -1,7 +1,6 @@
 public class L5 {
-    //dynamic programming, takes: n+n-1+n-2
-    // we need to check n single character, n-1 two character
-    //manchers's algorithm, odd palindrome, even palindrome
+    //manchers's algorithm, get all odd palindromes & even palindromes
+    // At the same time, we get the palindrome with max length
     int start, max;
     public String longestPalindrome(String s) {
         if (s.length() <= 1) { return s; }
